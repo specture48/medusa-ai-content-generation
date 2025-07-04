@@ -16,7 +16,7 @@
 - **Region & Category Awareness:**
   - Prompts can be tailored to specific regions and product categories for localized, relevant content.
 - **Highly Configurable:**
-  - Choose your AI provider (DeepSeek or OpenAI), models, and prompt templates.
+  - Choose your AI provider (DeepSeek or OpenAI), models
 - **API Endpoints:**
   - Admin endpoints for generating content from images or titles.
 - **Extensible & Future-Proof:**
