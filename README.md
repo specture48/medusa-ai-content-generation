@@ -56,7 +56,6 @@
          deepseek_model_name: process.env.DEEPSEEK_MODEL_NAME || 'deepseek-chat',
          openai_api_key: process.env.OPENAI_API_KEY,
          openai_model_name: process.env.OPENAI_MODEL_NAME || 'gpt-4o',
-         // default_prompt_template_path: 'path/to/your/custom-prompt.md'
        }
      }
    ]
@@ -82,7 +81,6 @@
 | `deepseek_model_name`          | string | The DeepSeek model to use (e.g., 'deepseek-coder', 'deepseek-chat').                               | `"deepseek-chat"` |
 | `openai_api_key`               | string | Your API key for the OpenAI API. Required if `ai_provider` is `"openai"`.                           |                 |
 | `openai_model_name`            | string | The OpenAI model to use (e.g., 'gpt-4o', 'gpt-3.5-turbo').                                        | `"gpt-4o"`      |
-| `default_prompt_template_path` | string | Optional. Path to a custom Markdown file to use as the prompt template.                               | Internal prompt |
 
 ---
 
